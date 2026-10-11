@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>বিশেষ উপহার</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+background-color: #faf8f5;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+text-align: center;
+color: #333;
+}
+.container {
+background: #ffffff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+max-width: 350px;
+width: 90%;
+}
+.container img {
+width: 100%;
+height: 220px;
+object-fit: cover;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+h2 {
+font-size: 20px;
+margin-bottom: 15px;
+color: #2c3e50;
+}
+.btn {
+display: block;
+width: 100%;
+padding: 12px;
+background: #27ae60;
+color: white;
+text-decoration: none;
+border-radius: 6px;
+font-size: 16px;
+font-weight: bold;
+transition: background 0.3s;
+}
+.btn:hover {
+background: #219653;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h2>একটি সুন্দর ফুলের ছবি</h2>
+<!-- এখানে ফুলের ছবি দেওয়া আছে -->
+<img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9" alt="Beautiful Flower">
+
+<!-- কোডের ভেতরের https://apnar-target-website.com লেখাটি কেটে আপনার কাঙ্ক্ষিত ওয়েবসাইটের লিংকটি বসিয়ে দেবেন -->
+<a class="btn" href="https://apnar-target-website.com">এগিয়ে যান</a>
+</div>
+
+</body>
+</html>
